@@ -3,7 +3,7 @@
 
 ## About The Project
 
-![screen-shot](#)
+![screen-shot](https://github.com/Dimitri-Basseguy/Freecodecamp-Survey-Form/blob/master/screen-survey-form.jpeg)
 
 Mon test FreecodeCamp Responsive Web Design Certification / Build a Survey Form.
 
