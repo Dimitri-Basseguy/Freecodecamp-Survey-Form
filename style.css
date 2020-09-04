@@ -48,6 +48,10 @@ header {
     font-size: large;
 }
 
+.form__control:hover {
+    background-color: coral;
+}
+
 .form__dropdown {
     margin-top: .5rem;
     height: 30px;
@@ -57,6 +61,10 @@ header {
     background-color: cornflowerblue;
     color: white;
     font-size: smaller;
+}
+
+.form__dropdown:hover {
+    background-color: coral;
 }
 
 .form__input-checkbox,
@@ -77,6 +85,10 @@ header {
     color: white;
     font-size: smaller;
     margin-bottom: 1rem;
+}
+
+.form__input-textarea:hover {
+    background-color: coral;
 }
 
 .form__submit {
