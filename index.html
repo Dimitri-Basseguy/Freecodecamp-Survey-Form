@@ -12,30 +12,30 @@
             <h1 id="title">FreeCodeCamp Survey Form Test Dimitri Basseguy</h1>
             <p id="description">Stay safe !</p>
         </header>
-        <form id="survey-form">
-            <div class="form-group">
+        <form id="survey-form" class="form">
+            <div class="form__group">
                 <label id="name-label" for="name">Your magical name</label>
                 <input
                     type="text"
                     name="name"
                     id="name"
-                    class="form-control"
+                    class="form__control"
                     placeholder="Enter your name"
                     required
                 />
             </div>
-            <div class="form-group">
+            <div class="form__group">
                 <label id="email-label" for="email">Email</label>
                 <input
                     type="email"
                     name="email"
                     id="email"
-                    class="form-control"
+                    class="form__control"
                     placeholder="Enter your email"
                     required
                 />
             </div>
-            <div class="form-group">
+            <div class="form__group">
                 <label id="number-label" for="age">Your magic age (optional)</label>
                 <input
                     type="number"
@@ -43,13 +43,13 @@
                     id="number"
                     min="50"
                     max="4000"
-                    class="form-control"
+                    class="form__control"
                     placeholder="Enter your magic age"
                 />
             </div>
-            <div class="form-group">
+            <div class="form__group">
                 <p>Types of Magic users ?</p>
-                <select id="dropdown" name="magic" required>
+                <select id="dropdown" name="magic" class="form__dropdown" required>
                     <option disabled selected value>Select current type</option>
                     <option value="wizard">Wizard</option>
                     <option value="witch">Witch</option>
@@ -60,14 +60,14 @@
                     <option value="necromancer">Necromancer</option>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form__group">
                 <p>Are you using magic last year ?</p>
                 <label>
                     <input
                     name="user-magic-use"
                     value="yes"
                     type="radio"
-                    class="input-radio"
+                    class="form__input-radio"
                     checked
                     />Yes
                 </label>
@@ -76,7 +76,7 @@
                     name="user-magic-use"
                     value="no"
                     type="radio"
-                    class="input-radio"
+                    class="form__input-radio"
                     />No</label
                 >
                 <label>
@@ -84,13 +84,13 @@
                     name="user-magic-use"
                     value="obiwan"
                     type="radio"
-                    class="input-radio"
+                    class="form__input-radio"
                     />Obi-Wan Kenobi
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form__group">
                 <p>Your favorite magic element ?</p>
-                <select id="dropdown" name="element" required>
+                <select id="dropdown" name="element" class="form__dropdown" required>
                     <option disabled selected value>Select current element</option>
                     <option value="pyro">Pyro Magic</option>
                     <option value="aqua">Aqua Magic</option>
@@ -98,14 +98,14 @@
                     <option value="terra">Terra Magic</option>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form__group">
                 <p>What is your next elemental magic learning ?</p>
                 <label
                 ><input
                     name="learn"
                     value="electro-magic"
                     type="checkbox"
-                    class="input-checkbox"
+                    class="form__input-checkbox"
                 />Electro Magic
                 </label>
                 <label>
@@ -113,7 +113,7 @@
                     name="learn"
                     value="cryo-magic"
                     type="checkbox"
-                    class="input-checkbox"
+                    class="form__input-checkbox"
                 />Cryo Magic
                 </label>
                 <label
@@ -121,7 +121,7 @@
                     name="learn"
                     value="toxic-magic"
                     type="checkbox"
-                    class="input-checkbox"
+                    class="form__input-checkbox"
                 />Toxic Magic
                 </label>
                 <label
@@ -129,22 +129,24 @@
                     name="learn"
                     value="blood-magic"
                     type="checkbox"
-                    class="input-checkbox"
+                    class="form__input-checkbox"
                 />Blood Magic
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form__group">
                 <p>Tell me about yourself</p>
                 <textarea
                 id="story"
-                class="input-textarea"
+                class="form__input-textarea"
                 name="story"
                 placeholder="Enter your story here..."
                 ></textarea>
             </div>
-            <button id="submit" type="submit">Send survey</button>
+            <button id="submit" type="submit" class="form__submit">Send survey</button>
         </form>
-        <p>Made by <a href="https://github.com/Dimitri-Basseguy" target="_blank" rel="noopener noreferrer">Dimitri Basseguy</a> for freecodecamp.org</p>
+        <footer class="footer">
+            <p>Made by <a href="https://github.com/Dimitri-Basseguy" target="_blank" rel="noopener noreferrer" class="footer__link">Dimitri Basseguy</a> for freecodecamp.org</p>
+        </footer>
     </div>
 </body>
 </html>
